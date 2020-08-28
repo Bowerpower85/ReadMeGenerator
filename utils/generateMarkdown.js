@@ -24,7 +24,7 @@ const generateMarkdown = (data) => {
   ## Test
   ${data.test}
   ## Questions
-  If you have any questions, contact ${data.username} on GitHub or email ${data.email}.
+  If you have any questions, contact ${data.username} on GitHub or email at bowerpower85@gmail.com.
   ## License
   MIT License 
   Copyright (c) [year] [${data.username}]

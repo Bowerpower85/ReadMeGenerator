@@ -1,9 +1,9 @@
 
-    # Project Title : ReadMeGenerator
+    # Project Title : Readme Generator
   ## Project Description:
-  Simple readme
+  This is a simple Readme Generator to help deploy professional readme files to your github.
   ## Badges
-  !(https://img.shields.io/github/repo-size/:Bowerpower85/:ReadMeGenerator)
+  !(https://img.shields.io/github/repo-size/:Bowerpower85/:undefined)
   ## Table of Contents
   * [Installation](#installation)
   * [Usage](#usage)
@@ -11,18 +11,18 @@
   * [Test](#test)
   * [Questions](#questions)
   * [License](#license)
-  * [Author] (#Author)
+  * [Author](#Author)
   * [Badges](#badges)
   ## Installation
-  npm i
+  Fork my repository and run npm init to install node and then you can run with node index.js
   ## Usage
-  install Dependicies
+  Make sure you have installed all the dependencies. When you are prompted with questions answer them and insure you Github username is correct.  Then the readme should generate and you can push it up to your repo.
   ## Contributors
-  Me, Myself and I
+  Moses Kamara, Donald Chromy, Dan Seese, Doug Mitchell
   ## Test
-  jest
+  Right now it is just manual testing but Jest can be installed with node to design a test.
   ## Questions
-  If you have any questions, contact Bowerpower85 on GitHub.
+  If you have any questions, contact Bowerpower85 on GitHub or email undefined.
   ## License
   MIT License 
   Copyright (c) [year] [Bowerpower85]

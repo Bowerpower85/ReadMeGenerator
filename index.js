@@ -47,9 +47,28 @@ const questions = [
 ];
 
 // function to write README file
-function writeToFile(fileName, data) {
+const writeToFile = (fileName, data) => {
+    fs.writeFile(fileName + '.md', data, error => error ? console.error(error) : console.log(`${fileName + '.md'} generated!`))
 }
-
+// function to initialize program
+const init = () => {
+    inquirer.prompt(questions).then(answers => {
+        console.log(answers);
+        axios
+          .get('https://api.github.com/users/' + answers.username)
+          .then(response => {
+            console.log(response);
+            const imageURL = response.data.avatar_url;
+            answers.image = imageURL;
+            console.log(imageURL);
+            fs.writeFile('README.md', generateMarkdown(answers), (err) => {
+              if (err) {
+                throw err;
+              }
+            });
+          });
+      });
+}
 // function call to initialize program
 init();
 // console.log(questions);
