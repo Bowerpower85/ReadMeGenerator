@@ -44,3 +44,5 @@
   ## Author
   ![GitHub profile pic](https://avatars0.githubusercontent.com/u/56975398?v=4)
   
+  <img src="images/Screenshot.gif">
+  
