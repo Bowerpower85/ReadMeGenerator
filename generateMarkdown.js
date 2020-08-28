@@ -5,7 +5,7 @@ const generateMarkdown = (data) => {
   ## Project Description:
   ${data.desc}
   ## Badges
-  !(https://img.shields.io/github/repo-size/:${data.username}/:${data.repo})
+  !(https://img.shields.io/github/repo-size/:${data.username}/:${data.public_repos})
   ## Table of Contents
   * [Installation](#installation)
   * [Usage](#usage)
