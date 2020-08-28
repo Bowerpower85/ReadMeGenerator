@@ -1,5 +1,5 @@
 
-    # Project Title : Readme Generator
+  # Project Title : Readme Generator
   ## Project Description:
   This is a simple Readme Generator to help deploy professional readme files to your github.
   ## Badges
@@ -14,15 +14,15 @@
   * [Author](#Author)
   * [Badges](#badges)
   ## Installation
-  Fork my repository and run npm init to install node and then you can run with node index.js
+  Fork my repository and run npm init to install node, then you can run with node index.js.
   ## Usage
-  Make sure you have installed all the dependencies. When you are prompted with questions answer them and insure you Github username is correct.  Then the readme should generate and you can push it up to your repo.
+  Make sure you have installed all the dependencies. When you are prompted with questions answer them and insure you Github username is correct. Then the readme should generate and you can push it up to your repo.
   ## Contributors
   Moses Kamara, Donald Chromy, Dan Seese, Doug Mitchell
   ## Test
   Right now it is just manual testing but Jest can be installed with node to design a test.
   ## Questions
-  If you have any questions, contact Bowerpower85 on GitHub or email undefined.
+  If you have any questions, contact Bowerpower85 on GitHub or email at undefined.
   ## License
   MIT License 
   Copyright (c) [year] [Bowerpower85]
