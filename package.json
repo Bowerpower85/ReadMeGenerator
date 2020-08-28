@@ -18,6 +18,8 @@
   "homepage": "https://github.com/Bowerpower85/ReadMeGenerator#readme",
   "dependencies": {
     "axios": "^0.19.2",
-    "inquirer": "^7.3.3"
-  }
+    "inquirer": "^7.3.3",
+    "node": "^14.8.0"
+  },
+  "devDependencies": {}
 }
